@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  cqrsapi:
+    hostname: "cqrs.api"
+    container_name: "cqrs.api"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
